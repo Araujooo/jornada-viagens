@@ -15,11 +15,11 @@ header {
 }
 
 .img-mobile {
-  display: none;
+  display: block;
 }
 
 .img-desktop {
-  display: block;
+  display: none;
 }
 
 .navigation-menu {
@@ -71,7 +71,7 @@ nav {
   .navigation-menu ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 0;
   }
 
