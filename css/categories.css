@@ -1,0 +1,77 @@
+.categories {
+  margin-top: 88px;
+}
+
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.package {
+flex-direction: column;
+  display: flex;
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-quaternary-color);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 16px;
+  padding: 24px;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: var(--text-primary-color);
+}
+
+.package h3{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+}
+
+.transfer .insurance{
+    padding-top: 50px;
+}
+
+.transfer img{
+    margin: 10px 0 20px;
+}
+
+.national br {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .categories br{
+        display: none;
+    }
+
+  .categories-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .package {
+    width: 420px;
+    height: 308px;
+  }
+
+  .national br {
+    display: block;
+  }
+
+  .international br{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .package {
+    width: 281.25px;
+    height: 220px;
+  }
+}
