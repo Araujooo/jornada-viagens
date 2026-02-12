@@ -32,6 +32,7 @@
   .hero-img {
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .hero h2 {
