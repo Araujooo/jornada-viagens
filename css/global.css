@@ -43,6 +43,10 @@ body {
   color: var(--text-primary-color);
 }
 
+section{
+  margin-bottom: 88px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -85,5 +89,11 @@ body {
 
   .section-title hr{
     margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  section{
+    margin-bottom: 104px;
   }
 }
