@@ -71,6 +71,7 @@ section.hero{
 .content-title{
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 0 0 24px ;
 }
 
 .content-text{
@@ -121,7 +122,6 @@ section.hero{
 @media screen and (min-width: 1440px){
   section{
     width: 1200px;
-    /* margin: 0 auto 104px auto; */
     margin-bottom: 104px;
   }
 }
