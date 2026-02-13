@@ -16,6 +16,10 @@
   margin-bottom: 24px;
 }
 
+.destinations .button{
+  width: 100%;
+}
+
 .destinations .img-item {
   width: 100%;
   height: 360px;
@@ -50,6 +54,10 @@
     background: url(../img/osaka-tablet-desk.jpg) no-repeat;
     background-size: cover;
   }
+
+  .destinations .button{
+  width: 280px;
+}
 }
 
 @media screen and (min-width: 1024px){
