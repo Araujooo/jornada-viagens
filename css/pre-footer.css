@@ -1,0 +1,39 @@
+.pre-footer-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/footer-mobile.png)  no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .pre-footer {
+    width: 768px;
+  }
+
+  .pre-footer-img{
+    background: url(../img/footer-tablet.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .pre-footer{
+    width: 1024px;
+  }
+
+  .pre-footer-img{
+    background: url(../img/footer-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .pre-footer{
+    width: 1440px;
+  }
+}  
+
+@media screen and (min-width: 1920px) {
+  .pre-footer{
+    width: 1920px;
+  }
+}
