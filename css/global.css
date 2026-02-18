@@ -68,6 +68,10 @@ section.hero, .pre-footer {
   margin: 16px auto 32px;
 }
 
+section footer{
+  background-color: transparent;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
