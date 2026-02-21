@@ -48,7 +48,7 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero, .pre-footer {
+section.hero, section.pre-footer, section.hero-pacotes{
   width: 100%;
   margin: 0;
 }
