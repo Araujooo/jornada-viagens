@@ -45,6 +45,10 @@
     height: 452px;
   }
 
+  .destinations-pacotes .section-title br{
+    display: none;
+  }
+
   .tokyo {
     background: url(../img/tokyo-tablet-desk.jpg) no-repeat;
     background-size: cover;
