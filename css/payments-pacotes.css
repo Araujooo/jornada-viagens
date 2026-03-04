@@ -1,7 +1,34 @@
+.payments .content-container .text-content p{
+  margin-bottom: 24px;
+}
+
+.payments .content-container .text-content .button{
+  width: 100%;
+}
+
 .payments .image-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   height: 460px;
   margin-top: 24px;
+}
+
+.payments .content-container .image-gallery .image.first-payments{
+  background: url(../img/gallery1-payments-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.second-payments{
+  background: url(../img/gallery2-payments-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.thirt-payments{
+  background: url(../img/gallery3-payments-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
 }
