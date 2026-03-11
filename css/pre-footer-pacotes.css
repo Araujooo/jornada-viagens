@@ -1,0 +1,42 @@
+.pre-footer-pacotes-img{
+    height: 400px;
+    width: 100%;
+    background: url(../img/pacotes-pre-footer-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 768px) {
+  .pre-footer {
+    width: 768px;
+  }
+
+  .pre-footer-pacotes-img{
+    background: url(../img/pacotes-pre-footer-tablet.png) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .pre-footer{
+    width: 1024px;
+    height: 600px;
+  }
+
+  .pre-footer-pacotes-img{
+    height: 600px;
+    background: url(../img/pacotes-pre-footer-desk.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .pre-footer{
+    width: 1440px;
+  }
+}  
+
+@media screen and (min-width: 1920px) {
+  .pre-footer{
+    width: 1920px;
+  }
+}
